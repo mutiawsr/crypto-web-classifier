@@ -1,0 +1,144 @@
+body {
+    background-color: #E2EAFC;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-line h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+}
+
+.container h2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.progress {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    float: left;
+}
+
+.progress-bar.red,
+.progress-bar.yellow,
+.progress-bar.blue {
+    height: 27px;
+    transition: box-shadow 0.3s ease;
+}
+
+.progress-bar.red:hover,
+.progress-bar.yellow:hover,
+.progress-bar.blue:hover {
+    height: 27px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.progress-bar.red:hover {
+    background-color: #af1328;
+}
+
+.progress-bar.yellow:hover {
+    background-color: #e5c10b;
+}
+
+.progress-bar.blue:hover {
+    background-color: #3b53c5;
+}
+
+.progress-bar.red {
+    background-color: #DA1E37;
+}
+
+.progress-bar.yellow {
+    background-color: #FFD500;
+}
+
+.progress-bar.blue {
+    background-color: #4361EE;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn {
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFF;
+    background-color: #4361EE;
+}
+
+.red-circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #DA1E37;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.yellow-circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #FFD500;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.blue-circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #4361EE;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.labels {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.label-confidence {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.label-confidence h2 {
+    margin-top: 7px;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
+
+footer h5 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}

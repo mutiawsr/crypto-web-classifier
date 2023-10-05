@@ -22,3 +22,5 @@ Cryptocurrency is a peer-to-peer digital exchange system based on blockchain tec
 4. Navigate to the web page
 ## Usage
 Enter the text you want to analyze for sentiment in the text box at the web page. The model will process your input text and display the sentiment analysis result as output text in the next page. The result will indicate whether the input text is classified as positive, negative, or neutral sentiment.
+## Demo
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/4a5HWFQpBYI/0.jpg)](http://www.youtube.com/watch?v=4a5HWFQpBYI "Cryptocurrency News Headline Sentiment Analyzer")
